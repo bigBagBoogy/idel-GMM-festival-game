@@ -1,0 +1,73 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Full-screen playing screen */
+  #playingScreen {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* vh = viewport height */
+  }
+  
+  /* Create a grid layout for game elements */
+  #gameContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns, equal width */
+    gap: 20px; /* Add some space between grid items */
+    max-width: 800px;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the max-width calculation */
+  }
+  
+  /* Center all the elements within the game container */
+  h1, h2, h3, p, button {
+    text-align: center;
+  }
+  
+  /* Style the buttons */
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Adjust font sizes for mobile devices */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 28px;
+    }
+    
+    h2 {
+      font-size: 24px;
+    }
+    
+    h3 {
+      font-size: 20px;
+    }
+    
+    p, button {
+      font-size: 16px;
+    }
+  }
+  
+  /* Custom styles for grid items */
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
