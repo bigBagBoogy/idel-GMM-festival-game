@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Festival Idle Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="playingScreen">
+    <div id="gameContainer">
+      <h1>Rock Festival Idle Game</h1>
+      <p>Scullies: <span id="scullies">0</span></p>
+
+      <div id="gameContainer">
+        <!-- Row 1 -->
+        <div class="grid-item">
+      <h2>Playing Field</h2>
+      <p>Level: <span id="playingFieldLevel">1</span></p>
+      <p>Income per second: <span id="playingFieldIncome">1</span></p>
+      <button id="upgradePlayingFieldBtn">
+        Upgrade Playing Field (Cost: 10 Scullies)
+      </button>
+   </div>
+      <div class="grid-item">
+    <!-- Concession Stands -->
+    <div>
+      <h2>Concession Stands</h2>
+      <div>
+        <h3>Food Stand</h3>
+        <p>Level: <span id="foodStandLevel">1</span></p>
+        <p>Income per second: <span id="foodStandIncome">1</span></p>
+        <button id="upgradeFoodStandBtn">
+          Upgrade Food Stand (Cost: 20 Scullies)
+        </button>
+    </div>
+    <div class="grid-item">         
+            <h2>Podium</h2>
+            <p>Level: <span id="podiumLevel">1</span></p>
+            <p>Income per second: <span id="podiumIncome">1</span></p>
+            <button id="upgradePodiumBtn">Upgrade Podium (Cost: 50 Scullies)</button>
+          </div>
+                <!-- Row 2 -->
+           <!-- Audio-Installation -->
+
+          <div class="grid-item">
+       
+        <h2>Audio-Installation</h2>
+        <p>Level: <span id="audioLevel">1</span></p>
+        <p>Income per second: <span id="podiumIncome">1</span></p>
+        <button id="upgradeAudioBtn">Upgrade Audio (Cost: 40 Scullies)</button>
+      </div>
+
+  <!-- Add placeholders for two more elements in the second row -->
+  <div class="grid-item">
+    <h3>Drink Stand</h3>
+        <p>Level: <span id="drinkStandLevel">1</span></p>
+        <p>Income per second: <span id="drinkStandIncome">1</span></p>
+        <button id="upgradeDrinkStandBtn">
+          Upgrade Drink Stand (Cost: 30 Scullies)
+        </button>
+      </div>
+    <!-- Placeholder for an element -->
+  </div>
+  <div class="grid-item">
+    <h3>T-shirt Stand</h3>
+    <p>Level: <span id="tshirtStandLevel">1</span></p>
+    <p>Income per second: <span id="tshirtStandIncome">1</span></p>
+    <button id="upgradeTshirtStandBtn">
+      Upgrade T-shirt Stand (Cost: 40 Scullies)
+    </button>
+  </div>
+    <!-- Placeholder for an element -->
+  
+      
+    </div>
+
+   
+    
+      
+
+    <script src="main.js"></script>
+  </body>
+</html>
