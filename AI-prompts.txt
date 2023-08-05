@@ -1,6 +1,0 @@
-use ALT+z  if lines are too long.
-
-
-I want to build it in HTML5/JavaScript. It should run in the browser andwill have to be responsive for mobile devices. Can you set me up with a code template to build upon? The theme is "a rock festival".  there will be a "playing"-field (that is upgradable), three different concession stands (food, drink, t-shirts (that are upgradable)) and a podium  (that is upgradable). Game currency will be called "scullies" 
-
-the bottom scroll bar is now indeed gone, but the right-side one is not. Also the last element "podium" falls out of the screen below still. Perhaps because of my screen settings? Anyway, I would like to resolve this by adding one more element: "Audio-Installation". Now we have six elements I propose to put the elements on the screen in a grid of two high and three wide. With this setup we will create more of a "landscape" setup, which will fit the screen hopefully.
